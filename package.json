@@ -1,0 +1,29 @@
+{
+  "name": "structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "test": "./node_modules/mocha/bin/mocha -R nyan --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmockler/structures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmockler/structures/issues"
+  },
+  "homepage": "https://github.com/asmockler/structures#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "flow-bin": "^0.31.1",
+    "mocha": "^3.0.2"
+  }
+}
